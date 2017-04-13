@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.3.0-beta1-build3642" />
+    <PackageReference Include="xunit.runner.console" Version="2.3.0-beta1-build3642" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="1.1.1" />
+	  <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.0-beta1-build3642" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AzureSQLDefrag.Core\AzureSQLDefrag.Core.csproj" />
+  </ItemGroup>
+
+</Project>
